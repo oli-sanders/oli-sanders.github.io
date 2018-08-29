@@ -4,7 +4,7 @@ title: DressLights
 ---
 
 Last year I got married to my wonderful wife and I had to bring some tech to the
-wedding. So I built lights into my wife's wedding dress and on a t-shirt to wear
+wedding. So I built lights into my wife's wedding dress and on a T-shirt to wear
 under my shirt. See the finished dress below.
 <iframe width="480" height="270" src="https://www.youtube.com/embed/Btj4zc9LLag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -32,7 +32,7 @@ sending the recieved UDP packets to the Arduino Pro Mini via serial.
 The Arduino Pro Mini then converts the message into commands for the lights
 which were attached to one of the digital pins of the Arduino Pro Mini.
 The lights are Adafruit Neopixels soldered into 6 strings of 5 lights which were
-sewed onto the dress under serveral layers of fabric.
+sewed onto the dress under several layers of fabric.
 Power lines were sewed in a ring around the waist of the dress, with the
 Adafruit powerboost 1000C and a 2000Mah lithium polymer battery attached to the
 ring.
