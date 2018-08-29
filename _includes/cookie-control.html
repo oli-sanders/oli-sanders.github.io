@@ -1,0 +1,34 @@
+{% if site.google_analytics %}
+<script>
+        var config = {
+            apiKey: 'e4d92251fb33cddf6dfd1adf7fd6bb7ddeb4b3aa',
+            product: 'COMMUNITY',
+            optionalCookies: [
+                {
+                        name: 'analytics',
+                        label: 'Analytics',
+                        description: 'These cookies let me see what content is popular allowing me to focus on writing more that you will like.',
+                        cookies: ['_ga', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
+                        onAccept : function(){
+                                                window.dataLayer = window.dataLayer || [];
+                                                    function gtag(){dataLayer.push(arguments);}
+                                                    gtag('js', new Date());
+    
+                                                    gtag('config', '{{ site.google_analytics }}', {
+                                                    'page_title' : '{{ page.title | replace: "'", "\\'" }}',
+                                                    'page_path': '{{ site.baseurl }}{{ page.url }}'
+                                                });
+                                            },
+                        onRevoke: function(){
+                                                window['ga-disable-{{ site.google_analytics }}'] = true;
+                                            }
+                    }
+            ],
+    
+            position: 'RIGHT',
+            theme: 'DARK'
+        };
+        
+    CookieControl.load( config );
+</script>
+{% endif %}
