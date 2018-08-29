@@ -41,9 +41,7 @@ on one string.
 See below for a video showing a string of lights being tested.
 
 ## Improvements that I could have made.
-- The Adafruit Huzzah could have been made to control the lights as well but when
-putting it together I didn't have any suitable logic level converters so used
-the Arduino Pro Mini I had to hand.
+- The Adafruit Huzzah could have been made to control the lights as well.
 
 ## Thanks
  * My wonderful wife for sewing most of the lights on the dress and putting up
