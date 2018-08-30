@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DressLights
+modified: 2018-08-30
 ---
 
 Last year I got married to my wonderful wife and I had to bring some tech to the

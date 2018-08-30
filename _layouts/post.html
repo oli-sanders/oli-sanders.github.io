@@ -13,5 +13,11 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  {% if page.modified %}
+  <div class="date">
+      Last modified on {{ page.modified | date: "%B %e, %Y" }}
+  </div>
+  {% endif %}
+
   {% include disqus.html %}
 </article>
