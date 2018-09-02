@@ -7,8 +7,8 @@ modified: 2018-08-30
 Last year I got married to my wonderful wife and I had to bring some tech to the
 wedding. So I built lights into my wife's wedding dress and on a T-shirt to wear
 under my shirt. See the finished dress below.
-<div>
-  <iframe src="https://www.youtube.com/embed/Btj4zc9LLag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="full-width-container">
+  <iframe class="video" src="https://www.youtube.com/embed/Btj4zc9LLag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 ## Parts
  * 48 [Neopixels](https://www.adafruit.com/product/1260)  36 on the dress + 12
